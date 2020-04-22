@@ -21,7 +21,7 @@ resource "azurerm_resource_group" "lab1" {
 }
 
 resource "azurerm_storage_account" "lab1sa" {
-  name                      = "devOpscloudagilelabs"
+  name                      = "devopscloudagilelabs"
   resource_group_name       =  azurerm_resource_group.lab1.name
   location                  =  azurerm_resource_group.lab1.location
 
