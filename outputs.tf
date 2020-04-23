@@ -12,8 +12,6 @@ output "azurerm_storage_account" {
 }
 
 output "azurerm_app_service" {
-    value  = module.app_service.azurerm_app_service
+    value  = module.app_service.azurerm_app_service.default_site_hostname
     description = "Azure App Service Output"
 }
-
-
