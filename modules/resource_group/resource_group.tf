@@ -1,5 +1,5 @@
 variable "rg" {
-    default = "terraform-la9992"
+    default = "terraform-la99922"
 }
 
 variable "loc" {
@@ -21,7 +21,7 @@ resource "azurerm_resource_group" "lab1" {
 }
 
 resource "azurerm_storage_account" "lab1sa" {
-  name                      = "999cneyterraformlab2"
+  name                      = "999cneyterraformlab22"
   resource_group_name       =  azurerm_resource_group.lab1.name
   location                  =  azurerm_resource_group.lab1.location
 
