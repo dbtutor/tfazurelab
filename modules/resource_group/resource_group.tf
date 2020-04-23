@@ -1,9 +1,9 @@
 variable "rg" {
-    default = "DevOpsCloudAgile"
+    default = "terraform-la9992"
 }
 
 variable "loc" {
-    default = "East US"
+    default = "West Europe"
 }
 
 variable "tags" {
@@ -21,7 +21,7 @@ resource "azurerm_resource_group" "lab1" {
 }
 
 resource "azurerm_storage_account" "lab1sa" {
-  name                      = "devopscloudagilelabs"
+  name                      = "999cneyterraformlab2"
   resource_group_name       =  azurerm_resource_group.lab1.name
   location                  =  azurerm_resource_group.lab1.location
 
