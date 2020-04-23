@@ -16,7 +16,7 @@ variable "tags" {
 
 resource "azurerm_resource_group" "lab1" {
   name     = var.rg
-  location = var.location
+  location = var.loc
   tags = var.tags
 }
 
@@ -36,5 +36,5 @@ output "azurerm_resource_group" {
 }
 
 output "azurerm_storage_account" {
-  value = azurerm_resource_group.lab1sa
+  value = azurerm_storage_account.lab1sa
 }
