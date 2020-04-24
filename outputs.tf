@@ -2,12 +2,12 @@
 // Syntax - module.<MODULE_NAME>.<OUTPUT_NAME>
 
 output "azurerm_resource_group" {
-    value = module.resource_group.azurerm_resource_group
+    value = module.resource_group.azurerm_resource_group.name
     description = "Azure Resource Group Output"
 }
 
 output "azurerm_storage_account" {
-    value  = module.resource_group.azurerm_storage_account
+    value  = module.resource_group.azurerm_storage_account.name
     description = "Azure Storage Account Output"
 }
 
