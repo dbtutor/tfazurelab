@@ -1,4 +1,3 @@
-# tfazurelab
 ### Terraform Azure Workshop with Terraform Cloud
 
 Please make sure you have added the following environment variables in Terraform Cloud Variables sections
