@@ -15,7 +15,7 @@ Please make sure you have added the following environment variables in Terraform
 
 #### Terraform Cloud Automatically Set the following values in environment variables
 
-`export ARM_SUBSCRIPTION_ID="XXXX-d959-4415-bb65-8aec2c90ba62"
-export ARM_CLIENT_ID="XXXX-69bf-4483-a2cc-b726e1e65d87"
-export ARM_CLIENT_SECRET="93b1423d-26a9-4ee7-a4f6-XXXX"
-export ARM_TENANT_ID="72f988bf-86f1-41af-91ab-XXXX"`
+`- export ARM_SUBSCRIPTION_ID="XXXX-d959-4415-bb65-8aec2c90ba62"
+- export ARM_CLIENT_ID="XXXX-69bf-4483-a2cc-b726e1e65d87"
+- export ARM_CLIENT_SECRET="93b1423d-26a9-4ee7-a4f6-XXXX"
+- export ARM_TENANT_ID="72f988bf-86f1-41af-91ab-XXXX"`
