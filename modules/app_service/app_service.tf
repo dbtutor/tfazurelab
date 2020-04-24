@@ -8,7 +8,8 @@ variable "resource_group" {
 }
 
 locals {
-    webappsperloc   = 6
+    # Create 10 Free App Service
+    webappsperloc   = 10
 }
 
 resource "random_string" "webapprnd" {
