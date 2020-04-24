@@ -8,7 +8,7 @@ variable "resource_group" {
 }
 
 locals {
-    # Create 10 Free App Service
+    # Create 10 Free App Services
     webappsperloc   = 10
 }
 
